@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Antoine Schnepf</title>
+<meta name="description" content="Personal academic homepage of Antoine Schnepf — resume and publications.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-decor" aria-hidden="true">
+  <span class="blob blob-1"></span>
+  <span class="blob blob-2"></span>
+  <span class="blob blob-3"></span>
+</div>
+
+<nav>
+  <a href="#top" class="site-name">Antoine Schnepf</a>
+  <div class="nav-links">
+    <a href="#about" class="nav-link">About</a>
+    <a href="#publications" class="nav-link">Publications</a>
+    <a href="#cv" class="nav-link">Resume</a>
+  </div>
+</nav>
+
+<main id="top">
+
+  <section class="intro">
+    <h1 class="intro-name">Antoine Schnepf</h1>
+    <p class="intro-tagline">Researcher &middot; Computer Vision &middot; Deep Learning</p>
+    <div class="link-bar">
+      <a href="https://scholar.google.com/citations?user=CcjdVBgAAAAJ&hl=fr" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://github.com/AntoineSchnepf/" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/antoine-schnepf-603a3b16a/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#" class="email-link">Email</a>
+      <a href="assets/resume.pdf">Resume</a>
+    </div>
+    <p class="open-to-box">
+      Currently seeking Researcher, Research Scientist, or Research Engineer roles in computer
+      vision or other AI-related topics.
+    </p>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="section-title">About</h2>
+    <div class="about-grid">
+      <div class="about-photo">
+        <img src="assets/portrait.jpg" alt="Antoine Schnepf" onerror="this.closest('.about-grid').classList.add('no-photo')">
+      </div>
+      <div class="about-content">
+        <div class="bio">
+          <p>
+            Based in Paris, I recently completed my PhD, exploring how powerful 2D vision models
+            can improve 3D reconstruction and generation. This work was carried out as a
+            collaboration between Criteo AI Lab and I3S-CNRS.
+          </p>
+          <p>
+            This work led to five publications, including two at ICLR, one at ICML, and one at
+            TMLR. I'm now looking ahead to the next phase of my career.
+          </p>
+        </div>
+        <div class="meta">
+          <div class="meta-group">
+            <span class="meta-label">Thesis</span>
+            <span class="thesis-title">"Neural 3D Reconstruction and Generation with Learned 2D Visual Priors"</span>
+            <a href="https://theses.hal.science/tel-05745850" target="_blank" rel="noopener">Read manuscript</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications" class="paper-list">
+    <h2 class="section-title">Publications</h2>
+
+    <a class="row" href="https://sphericaldreamer.github.io" target="_blank" rel="noopener">
+      <div class="row-left">
+        <span class="paper-index">00</span>
+        <div class="paper-info">
+          <span class="paper-name">SphericalDreamer: Generating Navigable Immersive 3D Worlds with Panorama Fusion</span>
+          <span class="paper-authors"><strong>A. Schnepf</strong>, K. Kassab, F. Vasile, A. Comport</span>
+          <span class="paper-venue">ICML 2026</span>
+          <span class="paper-link-label">Project Page</span>
+        </div>
+      </div>
+      <div class="row-video">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="assets/videos/sphericaldreamer.mp4" type="video/mp4">
+        </video>
+      </div>
+    </a>
+
+    <a class="row" href="https://fused-planes.github.io" target="_blank" rel="noopener">
+      <div class="row-left">
+        <span class="paper-index">01</span>
+        <div class="paper-info">
+          <span class="paper-name">Fused-Planes: Why Train a Thousand Tri-Planes When You Can Share?</span>
+          <span class="paper-authors">K. Kassab*, <strong>A. Schnepf</strong>*, J.-Y. Franceschi, L. Caraffa, F. Vasile, J. Mary, A. Comport, V. Gouet-Brunet</span>
+          <span class="paper-venue">ICLR 2026</span>
+          <span class="paper-link-label">Project Page</span>
+        </div>
+      </div>
+      <div class="row-video">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="assets/videos/fused-planes.mp4" type="video/mp4">
+        </video>
+      </div>
+    </a>
+
+    <a class="row" href="https://ig-ae.github.io" target="_blank" rel="noopener">
+      <div class="row-left">
+        <span class="paper-index">02</span>
+        <div class="paper-info">
+          <span class="paper-name">Bringing NeRFs to the Latent Space: Inverse Graphics Autoencoder</span>
+          <span class="paper-authors"><strong>A. Schnepf</strong>*, K. Kassab*, J.-Y. Franceschi, L. Caraffa, F. Vasile, J. Mary, A. Comport, V. Gouet-Brunet</span>
+          <span class="paper-venue">ICLR 2025</span>
+          <span class="paper-link-label">Project Page</span>
+        </div>
+      </div>
+      <div class="row-video">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="assets/videos/ig-ae.mp4" type="video/mp4">
+        </video>
+      </div>
+    </a>
+
+    <a class="row" href="https://refinedfields.github.io" target="_blank" rel="noopener">
+      <div class="row-left">
+        <span class="paper-index">03</span>
+        <div class="paper-info">
+          <span class="paper-name">RefinedFields: Radiance Fields Refinement for Planar Scene Representations</span>
+          <span class="paper-authors">K. Kassab, <strong>A. Schnepf</strong>, J.-Y. Franceschi, L. Caraffa, J. Mary, V. Gouet-Brunet</span>
+          <span class="paper-venue">TMLR 2025</span>
+          <span class="paper-link-label">Project Page</span>
+        </div>
+      </div>
+      <div class="row-video">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source src="assets/videos/refinedfields.mp4" type="video/mp4">
+        </video>
+      </div>
+    </a>
+
+    <div class="row">
+      <div class="row-left">
+        <span class="paper-index">04</span>
+        <div class="paper-info">
+          <span class="paper-name">3DGEN: A GAN-based Approach for Generating Novel 3D Models from Image Data</span>
+          <span class="paper-authors"><strong>A. Schnepf</strong>, F. Vasile, U. Tanielian</span>
+          <span class="paper-venue">NeurIPS Workshop on Machine Learning for Creativity and Design, 2022</span>
+        </div>
+      </div>
+      <div class="row-video">
+        <img src="assets/images/3dgen.jpg" alt="Grid of generated 3D car and chair meshes with textures, from the 3DGEN paper">
+      </div>
+    </div>
+
+    <p class="pub-note">* equal contribution</p>
+  </section>
+
+  <section id="cv" class="cv-section">
+    <h2 class="section-title">Resume</h2>
+
+    <div class="cv-block">
+      <span class="cv-label">Education</span>
+      <ul class="cv-list">
+        <li class="cv-row">
+          <span class="cv-date">2023 – 2026</span>
+          <div class="cv-info">
+            <span class="cv-title">Ph.D. in Machine Learning, Université Côte d'Azur &amp; Criteo AI Lab</span>
+            <span class="cv-sub">Thesis: <a href="https://theses.hal.science/tel-05745850" target="_blank" rel="noopener">"Neural 3D Reconstruction and Generation with 2D Visual Priors"</a> — Advisors: Andrew Comport, Flavian Vasile</span>
+          </div>
+        </li>
+        <li class="cv-row">
+          <span class="cv-date">2021 – 2022</span>
+          <div class="cv-info">
+            <span class="cv-title">M.Res. MVA — Mathématiques, Vision, Apprentissage, École Normale Supérieure Paris-Saclay</span>
+            <span class="cv-sub">Coursework: Deep Learning, Reinforcement Learning, Statistical Learning, Topological Data Analysis, NLP</span>
+          </div>
+        </li>
+        <li class="cv-row">
+          <span class="cv-date">2018 – 2022</span>
+          <div class="cv-info">
+            <span class="cv-title">M.Sc. Engineering, Major in Mathematics, CentraleSupélec</span>
+            <span class="cv-sub">Coursework: Machine Learning, Algorithms, Advanced Probability, Statistics, Stochastic Calculus, Harmonic Analysis</span>
+          </div>
+        </li>
+        <li class="cv-row">
+          <span class="cv-date">2016 – 2018</span>
+          <div class="cv-info">
+            <span class="cv-title">Classes Préparatoires aux Grandes Écoles — Mathematics &amp; Physics, Lycée Kléber</span>
+            <span class="cv-sub">Two-year intensive program preparing the French national engineering entrance exams</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="cv-block">
+      <span class="cv-label">Experience</span>
+      <ul class="cv-list">
+        <li class="cv-row">
+          <span class="cv-date">Jul 2023 – Present</span>
+          <div class="cv-info">
+            <span class="cv-title">Ph.D. Researcher, Criteo AI Lab &amp; CNRS / Université Côte d'Azur</span>
+            <span class="cv-sub">3D computer vision: generative modeling, 3D reconstruction, scene representation. First- or co-first-author on four papers. Co-supervised Master's interns and open-sourced code for each publication.</span>
+          </div>
+        </li>
+        <li class="cv-row">
+          <span class="cv-date">2022 – 2023</span>
+          <div class="cv-info">
+            <span class="cv-title">Research Intern — Generative 3D Computer Vision, Criteo AI Lab</span>
+            <span class="cv-sub">Generative 3D modeling with neural radiance fields, adversarial networks, and diffusion models. Internship extended directly into a Ph.D. under the same team.</span>
+          </div>
+        </li>
+        <li class="cv-row">
+          <span class="cv-date">2021</span>
+          <div class="cv-info">
+            <span class="cv-title">Research Intern — Computer Vision, Schlumberger AI Lab</span>
+            <span class="cv-sub">Fine-tuned ResNet-based architectures for industrial vision tasks. GAN-driven data augmentation for image segmentation networks.</span>
+          </div>
+        </li>
+        <li class="cv-row">
+          <span class="cv-date">2020 – 2021</span>
+          <div class="cv-info">
+            <span class="cv-title">Machine Learning Intern, Aarhus University</span>
+            <span class="cv-sub">Integrated a GAN into a citizen-science creativity game; designed Bayesian models to infer player behavior. Optimized a quantum cold-atoms experiment using Gaussian Process regression.</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Antoine Schnepf</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  (function () {
+    var reversed = 'moc.liamg@fpnseniotna';
+    document.querySelectorAll('.email-link').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        var email = reversed.split('').reverse().join('');
+        link.textContent = email;
+        window.location.href = 'mailto:' + email;
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>
